@@ -1,0 +1,246 @@
+@import url(../fonts/GothamBook.css);
+@import url(../fonts/GothamBold.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #ededed;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'arial';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+h1{
+	font-size: 26px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+
+p{
+	font-family: 'arial';
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Gothambook';
+}
+a{
+	text-decoration: none;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+span {
+    font-family: 'GothamBook';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+}
+header{
+	position: fixed;
+	width: 100%;
+}
+
+
+#container{
+	padding: 110px 15px 15px;
+}
+#containera{
+	padding: 15px 20px 20px;
+}
+
+/*  color del header  Amarillo #F4CE00 Celeste #44A0D3 Azul #013C80 */
+.header{
+	color: #FFF;
+	background: #013C80;
+	height: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+
+p{
+	display: flex;
+  justify-content:space-aroundy; 
+}
+
+.container_index  h1{
+	color:  #86290c ;
+	font-family: 'Arial';
+	font-size: 25pt;
+	letter-spacing: 1pt;
+	width: 100%;
+	background: #c5daf7  ;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container_index h2{
+	color: #013C80 ;
+	font-family: 'Arial';
+	font-size: 18pt;
+	letter-spacing: 1pt;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container_index h3{
+	color: #000000 ;
+	font-family: 'Arial';
+	font-size: 14pt;
+	letter-spacing: 1pt;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container_index h5{
+	color: #070707 ;
+	font-family: 'Arial';
+	font-size: 12pt;
+	letter-spacing: 1pt;
+	width: 100%;
+	padding: 15px;
+	text-align: right;
+	text-transform: uppercase;
+}
+.container_index p{
+	color: #10130b ;
+	font-family: 'Arial';
+	font-size: 14pt;
+	letter-spacing: 1pt;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container_index  img{
+	margin: 15px auto;
+	text-align: center;
+	display: block;
+}
+
+
+/*Fin*/
+
+
+
+
+hr{
+	border: 0;
+	background: #ccc;
+	height: 1px;	
+	margin: 10px 0;
+	display: block;
+}
+
+label{
+	display: block;
+	font-size: 12pt;
+	font-family: 'Gothambook';
+	margin: 15px auto 5px auto;
+}
+input,select{
+	display: block;
+	font-size: 11pt;
+	align-self: center;
+	padding: 5px;
+	border: 1px solid #85929e;
+}
+
+table{
+	border-collapse: collapse;
+	font-size: 12pt;
+	font-family: 'Arial';
+	width: 100%
+}
+table th{
+	text-align: left;
+	padding: 10px;
+	background: #3d7ba8;
+	color: #FFF;
+}
+table tr:nth-child(odd){
+background: #FFF;
+}
+table td{
+	padding: 10px;
+}
+table th:nth-child(1) {
+    width: 70%;
+}
+.tablas{
+	background-color: #ededed;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid #F4CE00;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.datos1{
+	background-color: #e3ecef;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid #013D7C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 15px;
+}
+
+.btn_nusuario{
+	display: inline-block;
+	background: #44A0D3;
+	color: #FFF;
+	font-size: 140%;
+	width: auto;
+	padding: 2% 10% 2% 10%;
+	border-radius: 0;
+	margin: 0 0 10% 0;
+}
+.hdos{
+	color: #013C80 ;
+	font-family: 'Arial';
+	font-size: 30pt;
+	width: 100%;
+	padding-top: 3%;
+	text-align: center;
+	text-transform: uppercase;
+}

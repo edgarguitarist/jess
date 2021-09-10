@@ -1,0 +1,57 @@
+div {
+  text-align: center;
+  position: relative;
+  top: 15%;
+  -ms-transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  transform: translateY(15%);
+}
+
+input {
+  padding: 7px;
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #f4ce00;
+  background-color: #fff;
+  display: block;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  shape-margin: 1px;
+}
+
+textarea:focus,
+input:focus,
+input[type]:focus {
+  border-color: rgb(255, 144, 0);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 8px rgba(255, 144, 0, 0.6);
+  outline: 0 none;
+}
+
+.csess {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btntam {
+  font-size: 18px;
+}
+.sombra {
+  font-weight: 700;
+}
+
+.arre {
+  position: fixed;
+}
+
+body {
+  background: url("https://static.vecteezy.com/system/resources/previews/000/544/180/non_2x/white-and-grey-circular-curve-abstract-background-vector-for-presentation-background-and-abstract-concept.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
